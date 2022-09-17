@@ -12,7 +12,7 @@ const showNFTData = async () => {
     )
 
     console.log(`nft data:`)
-    console.log(res.data)
+    console.log(res.data.nfts)
 }
 
 const main = async () => {
